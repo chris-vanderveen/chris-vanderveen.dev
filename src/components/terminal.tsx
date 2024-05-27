@@ -43,7 +43,7 @@ const Terminal = () => {
           width={180}
           height={40}
         />
-        I'm Chris Vander Veen
+        I&apos;m Chris Vander Veen
       </div>
       <div className="mb-5 ml-3 mr-5 mt-5 flex h-max">
         <Image

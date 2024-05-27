@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className="min-w-24">
         <motion.button
           whileHover={{
-            color: "#ff0055",
+            color: "#ff0048",
             scale: 1.25,
             transition: {
               duration: 0.5,
