@@ -1,19 +1,25 @@
 import Head from "next/head";
-import Link from "next/link";
+import Navbar from "~/components/navbar";
+import Terminal from "~/components/terminal";
 
 export default function Home() {
   return (
     <>
       <Head>
         <title>Chris Vanderveen</title>
-        <meta name="description" content="Welcome to my quiet place" />
+        <meta name="description" content="Software Engineer Extraordinaire" />
         <link rel="icon" href="/initial.png" />
       </Head>
-      <main
-        className="flex min-h-screen flex-col bg-cover bg-center"
-        style={{ backgroundImage: "url('/paper_gradient_bg.png')" }}
-      >
-        <div className="container top-0 mx-auto my-8 rounded-lg border-2 border-solid border-red-500 bg-emerald-500 shadow-lg backdrop-opacity-20"></div>
+      {/* Navbar */}
+      <main className="max-w-screen flex min-h-screen w-screen flex-col items-stretch bg-neutral-800 bg-cover bg-center">
+        <Navbar />
+        {/* Container for terminal window and other windows */}
+        <div className="flex-row justify-center gap-1">
+          <div className="w-1/4" />
+          {/* Terminal window */}
+          <Terminal />
+          <div className="w-1/4" />
+        </div>
       </main>
     </>
   );

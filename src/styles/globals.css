@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "KodeMono-Regular";
+    src: url("/font/KodeMono-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "KodeMono-SemiBold";
+    src: url("/font/KodeMono-SemiBold.ttf");
+    font-weight: 600;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "KodeMono-Medium";
+    src: url("/font/KodeMono-Medium.ttf");
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Satoshi-Regular";
+    src: url("/font/Satoshi-Regular.otf");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Satoshi-Bold";
+    src: url("/font/Satoshi-Bold.otf");
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "JetBrainsMono-Medium";
+    src: url("/font/JetBrainsMonoMedium.ttf");
+    font-weight: 500;
+    font-style: normal;
+  }
+}
